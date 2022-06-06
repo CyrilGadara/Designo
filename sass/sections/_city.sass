@@ -1,0 +1,53 @@
+.cities
+    margin-top: 130px
+    .citiesContainer
+        display: flex
+        align-items: center
+        justify-content: center
+        @media screen and (max-width: 1024px)
+            flex-direction: column
+        .cityCard
+            margin: 0 75px
+            text-align: center
+            // width: 350px
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            @media screen and (max-width: 1200px)
+                margin: 0 50px
+            @media screen and (max-width: 1024px)
+                margin: 40px 0
+            .cityInfo
+                .city_title
+                    font-size: 20px
+                    font-weight: 500
+                    text-transform: uppercase
+                    color: #333136
+                    margin: 32px auto
+            .cityImage
+                position: relative
+                &:after
+                    content: url(../img/bg-pattern-small-circle.svg)
+                    position: absolute
+                    top: 0
+                    left: 0
+                img
+                    width: 100%
+                    height: 100%
+            .cityCTA
+                background: #e7816b
+                width: 152px
+                height: 56px
+                margin: 0 auto
+                border-radius: 8px
+                display: flex
+                align-items: center
+                justify-content: center
+                font-size: 15px
+                text-transform: uppercase
+                font-weight: 500
+                a
+                    color: #fff
+                    text-decoration: none
+                    letter-spacing: 1px
+                

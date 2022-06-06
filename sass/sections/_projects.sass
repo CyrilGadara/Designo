@@ -1,0 +1,46 @@
+.projects
+    margin: 150px 0 0 0
+    display: flex
+    @media screen and (max-width: 1024px)
+        flex-direction: column
+    @media screen and (max-width: 768px)
+        padding: 0 50px
+    @media screen and (max-width: 425px)
+        padding: 0 25px
+    .project_column
+        width: 100%
+        margin: 15px
+        display: flex
+        flex-direction: column
+        align-items: center
+        @media screen and (max-width: 1024px)
+            margin: 0
+        .project_card
+            height: 100%
+            width: 100%
+            color: #fff
+            justify-content: center
+            align-items: center
+            display: flex
+            flex-direction: column
+            margin: 15px
+            border-radius: 15px
+            
+            @media screen and (max-width: 1024px)
+                height: 250px !important
+            .project_title
+                    font-size: 40px
+                    text-transform: uppercase
+                    @media screen and (max-width: 425px)
+                        font-size: 26px
+            &.featured
+                height: 550px
+            a
+                color: #fff
+                font-size: 15px
+                font-weight: 500
+                text-decoration: none
+                text-transform: uppercase
+                letter-spacing: 8px
+                &:hover
+                    text-decoration: underline

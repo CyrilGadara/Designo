@@ -1,0 +1,66 @@
+footer
+    background: #1D1C1E
+    margin-top: -60px
+    padding: 120px 60px 60px 60px
+    .footerContainer
+        max-width: 1024px !important
+        margin: 0 auto
+        .footerTop
+            display: flex
+            align-items: center
+            justify-content: space-between
+            border-bottom: 1px solid #333234
+            padding-bottom: 30px
+            @media screen and (max-width: 768px)
+                flex-direction: column
+                justify-content: center
+                text-align: center
+                border-bottom: none
+                
+            .logo
+                padding-top: 8px
+                @media screen and (max-width: 768px)
+                    border-bottom: 1px solid #333234
+                    width: 100%
+                    padding-bottom: 25px    
+                a   
+                    img 
+                        height: 24px
+                        width: 196px
+            nav
+                display: flex
+                @media screen and (max-width: 768px)
+                    flex-direction: column
+                    padding-top: 25px
+                a
+                    color: #fff
+                    text-transform: uppercase
+                    margin-left: 42px
+                    text-decoration: none
+                    font-weight: 400
+                    font-size: 14px
+                    letter-spacing: 2px
+                    &:hover
+                        text-decoration: underline
+                    @media screen and (max-width: 768px)
+                        margin: 10px 0
+        .footerBottom
+            display: flex
+            padding-top: 30px
+            color: #8E8D8E
+            align-items: flex-start
+            @media screen and (max-width: 768px)
+                flex-direction: column
+                justify-content: center
+                align-items: center
+                text-align: center
+            address,.contacts
+                font-style: normal
+                .office,.street
+                    font-weight: 700
+                    font-size: 16px
+                    line-height: 1.8
+            .contacts
+                margin-left: 150px
+                @media screen and (max-width: 768px)
+                    margin: 60px 0
